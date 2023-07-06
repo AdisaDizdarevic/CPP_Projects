@@ -13,7 +13,7 @@ public:
 
 int main() {
   Less_than i{42};
-  // Less_than<std::string> s{"string" a};
-  Less_than<std::string> s2{"string"};
+  Less_than<std::string> lts{"strinjg"s};
+  Less_than s2{"string"s};
   return 0;
 }
